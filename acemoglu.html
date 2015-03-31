@@ -1,6 +1,106 @@
----
----
-{% include header.html %}
+<!DOCTYPE html>
+<html lang="en"> 
+
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Effective Altruism Week</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="navbar.js" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+  </head>
+
+<!-- NAVBAR
+================================================== -->
+  <body>
+
+<div class="navbar-wrapper">
+  <nav class="navbar navbar-inverse navbar-fixed-top" ng-controller="HeaderController">
+    <div class="container-fluid">
+      <div class="navbar-header">
+	<a class="navbar-brand" href="#">EA Week</a>
+      </div>
+      <div>
+	<ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+	  <li><a href="apply.html">Apply</a></li> 
+          <li><a href="about.html">About</a></li> 
+	</ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
 <hr class="featurette-divider">
-{% include event.html data=site.events.acemoglu %}
-{% include footer.html %}
+
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <img src="media/acemoglu_poster.jpg" width="100%"/>
+  </div>
+  <div class="col-md-3"></div>
+</div>
+<br />
+<div class="row">
+  <div class="col-lg-4"></div>
+  <div class="col-lg-4">
+    <center>
+      
+      
+      <!-- <img class="img-circle" src="media/acemoglu_picture.jpg" width="210" height="210">-->
+      <h4>Tuesday April 14th, 5:00pm</h4>
+<h4>Emerson 210</h4>
+
+      <a href="https://www.facebook.com/events/387005368148409/">RSVP</a></br />
+    </center>
+  </div>
+  <div class="col-lg-4"></div>
+</div>
+<br />
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    
+       <p class="lead">Professor Acemoglu will discuss why it has been difficult throughout history to build state capacity, and why the development of the notion of generalized rights has been instrumental in the emergence of states that have the capacity to deliver services, but are constrained in their ability to dominate society. <br />
+Daron Acemoglu is the Killian Professor of Economics at MIT. In 2005 he received the John Bates Clark Medal awarded to economists under forty judged to have made the most significant contribution to economic thought and knowledge.<br />
+This event is open to the public.<br /></p>
+    
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+      <hr class="featurette-divider">
+<!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
