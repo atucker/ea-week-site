@@ -1,0 +1,15 @@
+<div class="container marketing">
+  <h2 class="featurette-heading">{{include.data.heading}}</h2>
+  <!-- Three columns of text below the carousel -->
+  {% for row in include.data.rows %}
+  <div class="row">
+    {% for col in row.cols %}
+    <div class="col-lg-4">
+      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>{{col.heading}}</h2>
+      {{col.text}}
+    </div><!-- /.col-lg-4 -->
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>

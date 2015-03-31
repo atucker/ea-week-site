@@ -1,0 +1,24 @@
+---
+ab: 
+ heading: About us
+ leads:
+  - Harvard College Effective Altruism is a student group devoted to TAKE FROM WEBSITE. In particular, we are committed to the ideas that TAKE FROM WEBSITE.
+  - We host a dozen public talks each year, from such luminaries as philosopher Peter Singer, polymath Steven Pinker, and Skype co-founder Jaan Tallinn. Each semester, we award competitive fellowships to about twenty students, who meet weekly with our speakers and other guests, develop perspectives on ethics and global challenges, and gain access to an international network of humanitarians. HCEA also runs reading groups on more specific topics and maintains a blog. 
+
+team:
+  heading: Meet the Team
+  rows:
+   - cols:
+     - heading: Heading
+       text: Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+     - heading: Heading
+       text: Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+     - heading: Heading
+       text: Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+---
+{% include header.html %}
+
+{% include featurette.html data=page.ab %}
+{% include grid.html data=page.team %}
+
+{% include footer.html %}
