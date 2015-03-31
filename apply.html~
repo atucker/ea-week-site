@@ -1,3 +1,0 @@
-{% include header.html %}
-<iframe src="http://www.w3schools.com"></iframe>
-{% include footer.html %}

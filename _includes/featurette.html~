@@ -1,8 +1,0 @@
-<div class="row featurette">
-  <div class="col-md-2"></div>
-  <div class="col-md-8">
-    <h2 class="featurette-heading">{{content.heading}}</h2>
-    {{content.text}}
-  </div>
-  <div class="col-md-2"></div>
-</div>

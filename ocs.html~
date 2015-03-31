@@ -1,6 +1,0 @@
----
----
-{% include header.html %}
-<hr class="featurette-divider">
-{% include event.html data=site.events.acemoglu %}
-{% include footer.html %}
