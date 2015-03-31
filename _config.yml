@@ -1,0 +1,62 @@
+# Site settings
+title: Harvard Effective Altruism Week
+email: harvardea@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+# Site data
+events:
+  singer:
+    image: "media/singer_picture.jpg"
+    poster: "media/singer_poster.jpg"
+    banner: "media/singer_banner.jpg"
+    speaker: Peter Singer
+    title: The Most Good You Can Do
+    sub:   How Effective Altruism is Changing Ideas About Living Ethically
+    spacetime:
+      date: Sunday April 12th, 7:30pm
+      location: Science Center C
+    url: "singer.html"
+    facebook: "https://www.facebook.com/events/1570351403219264/"
+    description:
+      - |
+        Peter Singer is often described as the world’s most influential living philosopher. His 40 books have appeared in more than 25 languages. Singer is the Ira W. DeCamp Professor of Bioethics, Princeton University, and Laureate Professor, School of Historical and Philosophical Studies, University of Melbourne. Singer is also the founder of The Life You Can Save, an effective altruism group that encourages people to donate money to the most effective charities working today.
+      - This event is open to the public.
+      - Book sales will be available through Harvard Bookstore.
+  ocs:
+    image: "media/ocs_picture.jpg"
+    poster: "media/ocs_poster.jpg"
+    banner: "media/ocs_banner.jpg"
+    speaker: OCS Career Panel
+    title: Explore Earning-to-Give
+    sub:   Want to make an impact? 
+    spacetime:
+      date: April 13th 6-7pm
+      location: OCS at 54 Dunster Street
+    url: "ocs.html"
+  acemoglu:
+    skip_image: true
+    image: "media/acemoglu_picture.jpg"
+    poster: "media/acemoglu_poster.jpg"
+    banner: "media/acemoglu_banner.jpg"
+    speaker: <br />Daron Acemoğlu
+    title: States and Rights
+    sub: Co-author of "Why Nations Fail&#58; The Origins of Power, Prosperity and Poverty"
+    spacetime:
+      date: Tuesday April 14th, 5:00pm
+      location: Emerson 210
+    url: "acemoglu.html"
+    facebook: "https://www.facebook.com/events/387005368148409/"
+    description: |
+      Professor Acemoglu will discuss why it has been difficult throughout history to build state capacity, and why the development of the notion of generalized rights has been instrumental in the emergence of states that have the capacity to deliver services, but are constrained in their ability to dominate society. <br />
+      Daron Acemoglu is the Killian Professor of Economics at MIT. In 2005 he received the John Bates Clark Medal awarded to economists under forty judged to have made the most significant contribution to economic thought and knowledge.<br />
+      This event is open to the public.<br />

@@ -1,0 +1,57 @@
+---
+cover_content: |
+  <img class="img-circle logo" src="media/logo.png" alt="Generic placeholder image" width="300" height="300">
+
+blurbs :
+ - heading: What’s your plan to change the world?
+   leads:
+    - Your career = 80,000 hours of work, each of which is an opportunity to make the world a better place.
+    - |
+      <ul>
+        <li>Will you reduce the global burden of disease?</li>
+        <li>Address international economic inequities?</li>
+        <li>Promote our planet’s resilience?</li>
+        <li>Leverage increasing interconnectivity to bridge social disconnects?</li>
+      </ul>
+    - This is an incredible chance we have—to view our careers not only as occupations, but also as demonstrations of our values and visions for the world.
+    - What are your values? What is your vision?
+
+ - heading: Let’s translate intentions to outcomes
+   leads:
+    - It’s not enough for us to care—real change requires precise planning and concrete action. We must prioritize global challenges, learn from insights in research and public policy, and take directed actions whose impacts we can anticipate and understand.
+    - We must make our altruism effective.  
+    - How can we each choose careers that will position us to realize our potential to improve the world?
+
+ - heading: Start with EA Week
+   leads:
+    - Effective Altruism Week is a time to reflect on our values, explore global issues, and rethink our own life paths. 
+    - So, do you want to change the world? See you soon.
+---
+
+{% include header.html %}
+
+<!-- ================== CONTENT ================= -->
+
+{% include cover.html %}
+
+{% for blurb in page.blurbs %}
+  {% include featurette.html data=blurb %}
+{% endfor %}
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <!-- /END THE FEATURETTES -->
+{% include footer.html %}
+
