@@ -112,6 +112,10 @@ body {
   margin: auto;
 }
 
+.img-cover {
+  margin-top: 60px;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
