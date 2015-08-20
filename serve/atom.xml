@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>The blog of </title>
+ <link href="http://harvardea.org/atom.xml" rel="self"/>
+ <link href="http://harvardea.org"/>
+ <updated>2014-08-22T18:37:02-04:00</updated>
+ <id>http://harvardea.org</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>HEA's spring 2014 research</title>
+   <link href="http://harvardea.org/news/2014/06/13/research/"/>
+   <updated>2014-06-13T00:00:00-04:00</updated>
+   <id>http://harvardea.org/news/2014/06/13/research</id>
+   <content type="html">&lt;p&gt;This semester, our fellowship did some research - in order to measure which presentations of charities attract the most interest to effective altruism. More specifically, we held giving games in Annenberg dining hall, where we gave students a dollar to donate to one of three charities. After they had donated, we asked them to sign up for our email list and that of The Life You Can Save. We presented different types of charities and presented charities with and without effectiveness information, and we measured the effect on email signups. Our main finding was that global poverty charities yielded a greater number of email signups than did more speculative charities.&lt;/p&gt;
+
+&lt;h2 id='procedure'&gt;Procedure&lt;/h2&gt;
+
+&lt;p&gt;We set up next to the exit of Annenberg dining hall and asked exiting students (mostly Harvard freshmen) to donate a dollar, which we provided, to charity. They did this by filling out an online form on one of our laptops, which presented them with three charities and prompted them to choose one.&lt;/p&gt;
+
+&lt;p&gt;We had three different sets of charities, of which we randomly selected one for each subject. The control set - Against Malaria Foundation, Schistosomiasis Control Initiative, and GiveDirectly - contains interventions in global health and poverty, described by a few bullet points that did not mention cost-effectiveness. The “effectiveness” set consists of the same charities, with descriptions extended by one bullet point to comment on the charity’s cost-effectiveness; for example, “According to GiveWell, a third-party evaluator, distributing deworming medicine to one child costs $0.73-0.99, with SCI paying about 70% of these costs.” Finally, the “speculative” set - Against Malaria Foundation, Machine Intelligence Research Institute, and 80,000 Hours - contains one option in global poverty, one in in existential risk, and one in meta-EA; described without mentioning cost-effectiveness&lt;/p&gt;
+
+&lt;p&gt;After choosing a charity, the subject returned the laptop and was asked by the experimenter (an HEA member) why they chose what they did. The experimenter then briefly described HEA and asked whether the subject would like to sign up for our email list or that of The Life You Can Save. We measured the number of signups for each list.&lt;/p&gt;
+
+&lt;h2 id='data'&gt;Data&lt;/h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th /&gt;&lt;th&gt;Control&lt;/th&gt;&lt;th&gt;Effectiveness&lt;/th&gt;&lt;th&gt;Speculative&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;Total subjects&lt;/td&gt;&lt;td style='text-align: left;'&gt;58&lt;/td&gt;&lt;td style='text-align: left;'&gt;59&lt;/td&gt;&lt;td style='text-align: left;'&gt;62&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;HEA email signups&lt;/td&gt;&lt;td style='text-align: left;'&gt;36&lt;/td&gt;&lt;td style='text-align: left;'&gt;28&lt;/td&gt;&lt;td style='text-align: left;'&gt;26&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;TLYCS email signups&lt;/td&gt;&lt;td style='text-align: left;'&gt;21&lt;/td&gt;&lt;td style='text-align: left;'&gt;16&lt;/td&gt;&lt;td style='text-align: left;'&gt;13&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2 id='results'&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;In informal terms, we found that 62.1% of subjects signed up for HEA’s email list in the control group, compared to 47.5% in the cost-effectiveness group, and only 41.9% in the group with more speculative charities. The difference between the control and speculative groups was strong enough that the result is statistically significant. The results were qualitatively similarly (but with fewer overall signups) for TLYCS’s email list.&lt;/p&gt;
+
+&lt;p&gt;We used two-tailed Fisher&amp;#8217;s exact tests, which give the following p-values and relative risks. (A relative risk of 0.5 means that the intervention group is half as likely to show the effect as controls.)&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th /&gt;&lt;th&gt;&lt;em&gt;p&lt;/em&gt; (Fisher&amp;#8217;s exact)&lt;/th&gt;&lt;th&gt;Relative risk (95% CI)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;Speculative, HEA&lt;/td&gt;&lt;td style='text-align: left;'&gt;&lt;em&gt;0.03&lt;/em&gt;&lt;/td&gt;&lt;td style='text-align: left;'&gt;0.68 (0.47-0.96)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;Effectiveness, HEA&lt;/td&gt;&lt;td style='text-align: left;'&gt;0.14&lt;/td&gt;&lt;td style='text-align: left;'&gt;0.75 (0.52-1.07)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;Speculative, TLYCS&lt;/td&gt;&lt;td style='text-align: left;'&gt;0.07&lt;/td&gt;&lt;td style='text-align: left;'&gt;0.67 (0.42-1.06)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;Effectiveness, TLYCS&lt;/td&gt;&lt;td style='text-align: left;'&gt;0.32&lt;/td&gt;&lt;td style='text-align: left;'&gt;0.80 (0.53-1.23)&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2 id='conclusions'&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Presenting Harvard students with more traditional, global poverty charities appears to generate more interest in effective altruism than does presenting them with charities in existential risk and meta-EA. In our case, we received significantly more email signups when presenting global poverty charities.&lt;/p&gt;
+
+&lt;p&gt;It is hard to draw conclusions with respect to the inclusion of cost-effectiveness information. We don’t know whether the decrease in signups resulted from having cost-effectiveness information or from the blurbs just taking longer to read; this was a flaw in the design of our experiment.&lt;/p&gt;
+
+&lt;p&gt;Next time we do giving games to generate interest in EA, we’ll keep these results in mind! Thanks for reading!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Aversion Factoring and Career Choice</title>
+   <link href="http://harvardea.org/event/2014/04/17/critch/"/>
+   <updated>2014-04-17T00:00:00-04:00</updated>
+   <id>http://harvardea.org/event/2014/04/17/critch</id>
+   <content type="html">&lt;p&gt;We often limit ourselves by avoiding things we find bothersome or scary. But for almost anything you find bothersome, there&amp;#8217;s someone out there who doesn&amp;#8217;t! How does that work? Can you copy their enjoyment-powers? If so, you have many more options for growth, career choice, and general do-gooding. This presentation is based around a technique taught at the Center for Applied Rationality for using aversions as a source of creativity, and then getting over them.&lt;/p&gt;
+
+&lt;p&gt;Critch’s interest in rationality began as a teenager growing up in Newfoundland, Canada, where he says he “just had a lot of time to think about it”. When he was 14, he made his first attempt to extrapolate his instinctive preferences into a function whose expected integral he wanted to maximize. (In college he found out that some economists had been crazy enough to think humans worked this way automatically). He also won numerous national awards in mathematics and public-speaking competitions.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Dinner with Toby Ord</title>
+   <link href="http://harvardea.org/event/2014/04/16/toby/"/>
+   <updated>2014-04-16T00:00:00-04:00</updated>
+   <id>http://harvardea.org/event/2014/04/16/toby</id>
+   <content type="html">&lt;p&gt;Toby Ord is a James Martin Research Fellow with the Programme on the Impacts of Future Technology, but also contributes towards the FHI&amp;#8217;s research aims. His FHI research interests include both theoretical and practical ethics, with a focus on questions concerning the big picture. He is currently investigating the topic of moral uncertainty: the study of how to act when we are unsure of the relevant moral considerations. This is a much neglected area of theoretical ethics with many strong practical implications. He is also exploring a number of questions regarding global poverty, such as the extent of our personal responsibilities and how we should prioritise within aid spending. Finally, he has an ongoing interest in questions about future technologies and global catastrophic risks.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Dinner with Carl Shulman</title>
+   <link href="http://harvardea.org/event/2014/04/09/shulman/"/>
+   <updated>2014-04-09T00:00:00-04:00</updated>
+   <id>http://harvardea.org/event/2014/04/09/shulman</id>
+   <content type="html">&lt;p&gt;Carl Shulman is a Research Fellow at the Machine Intelligence Research Institute who has authored and co-authored several papers on AI risk, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;#8220;How Hard is Artificial Intelligence? Evolutionary Arguments and Selection Effects,&amp;#8221; an analysis of the implications of the Observation selection effecton the Evolutionary argument for human-level AI&lt;/li&gt;
+
+&lt;li&gt;&amp;#8220;Whole Brain Emulation and the Evolution of Superorganisms,&amp;#8221; which argues for the existence of pressures favoring the emergence of increased coordination between emulated brains, in the form of superorganisms.&lt;/li&gt;
+
+&lt;li&gt;&amp;#8220;Implications of a Software-Limited Singularity,&amp;#8221; which argues for the high probability of a human-level IA before 2060.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Previously, he worked at Clarium Capital Management, a global macro hedge fund, and at the law firm Reed Smith LLP. He attended New York University School of Law and holds a BA in philosophy from Harvard University.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>How much can we generalize from impact evaluation results?</title>
+   <link href="http://harvardea.org/event/2014/04/04/vivalt/"/>
+   <updated>2014-04-04T00:00:00-04:00</updated>
+   <id>http://harvardea.org/event/2014/04/04/vivalt</id>
+   <content type="html">&lt;p&gt;It’s important to evaluate the impact of interventions in development, so as to inform future actions and policies. But – given that individual studies are rooted in particular contexts – when and how can we generalize their findings across settings? Dr. Vivalt will share her findings. Q&amp;amp;A to follow.&lt;/p&gt;
+
+&lt;p&gt;Join us after the talk for a research-athon - An Introduction to Meta–Analyses. From 2 to 6 pm, Dr. Vivalt will teach participants how to do some of the work that AidGrade does. Volunteers will gain experience and contribute to AidGrade’s research!&lt;/p&gt;
+
+&lt;p&gt;Eva Vivalt is a post-doctoral fellow at New York University. She has a Ph.D. in Economics and an M.A. in Mathematics from the University of California, Berkeley and spent two years as a Young Professional at the World Bank, where she worked in the Development Economics Research Group. Eva completed an M.Phil. in Development Studies at Oxford University on a Commonwealth Scholarship after obtaining her A.B. from Dartmouth College. She previously worked as a consultant in the World Bank’s Development Economics Research Group and has extensive experience with international development, including field experience, through work with the UN Development Program, Oxford Development Abroad, and numerous other charity groups.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Emotion, Reason, and Altruism</title>
+   <link href="http://harvardea.org/event/2014/03/11/greene/"/>
+   <updated>2014-03-11T00:00:00-04:00</updated>
+   <id>http://harvardea.org/event/2014/03/11/greene</id>
+   <content type="html">&lt;p&gt;Why do people have radically different opinions as to who to help and how? How can we get along with people who seem to fundamentally disagree with us about what to want? Professor Josh Greene addresses this and more in &lt;em&gt;Emotion, Reason, and Altruism.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Joshua Greene directs Harvard&amp;#8217;s Moral Cognition Lab, which uses techniques from cognitive neuroscience to study moral decision-making, trying to understand what causes disagreement on moral questions and how they can be resolved.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Future of Life: a Cosmic Perspective</title>
+   <link href="http://harvardea.org/event/2014/03/04/tegmark/"/>
+   <updated>2014-03-04T00:00:00-05:00</updated>
+   <id>http://harvardea.org/event/2014/03/04/tegmark</id>
+   <content type="html">&lt;p&gt;Prof. Tegmark will explore how we humans have repeatedly underestimated not only the size of our cosmos (and hence our future opportunities), but also the power of our humans minds to understand it and develop technologies with the power to enrich or extinguish humanity.&lt;/p&gt;
+
+&lt;p&gt;Known as “Mad Max” for his unorthodox ideas and passion for adventure, Max Tegmark&amp;#8217;s scientific interests range from precision cosmology to the ultimate nature of reality, all explored in his new popular book &amp;#8220;Our Mathematical Universe&amp;#8221;. He is an MIT physics professor with more than two hundred technical papers and has featured in dozens of science documentaries. His work with the SDSS collaboration on galaxy clustering shared the first prize in Science magazine’s “Breakthrough of the Year: 2003.”&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Our winter 2013 fundraiser is finished!</title>
+   <link href="http://harvardea.org/news/2014/02/05/fundraiser/"/>
+   <updated>2014-02-05T00:00:00-05:00</updated>
+   <id>http://harvardea.org/news/2014/02/05/fundraiser</id>
+   <content type="html">&lt;p&gt;This holiday season, HEA fundraised for GiveWell&amp;#8217;s recommended charities.&lt;/p&gt;
+
+&lt;p&gt;Now that fundraiser is over, we&amp;#8217;d like to extend a warm thank you to everyone who participated - give yourself a pat on the back! The money and time you donated really will make an impact in the world, by providing money and cost-effective medical treatment to people in need.&lt;/p&gt;
+
+&lt;p&gt;The final total donated through our fundraiser was &lt;strong&gt;$42,250.82&lt;/strong&gt;. Wow! We&amp;#8217;re totally blown away by the response we received. Here&amp;#8217;s where our donors chose to give.&lt;/p&gt;
+&lt;img height='287' src='/assets/img/2014-02-05/image00.png' width='510' /&gt;
+&lt;p&gt;Some of our donors requested that their contributions not count towards the anonymous match, because they would have donated it anyway and the didn&amp;#8217;t want to mess up the incentives of the match for other people. Counting just the money that would have gone elsewhere without the fundraiser, we &lt;em&gt;moved&lt;/em&gt; &lt;strong&gt;$4350.41&lt;/strong&gt; to GiveWell&amp;#8217;s top charities from other uses. These donations were matched dollar-for-dollar by our anonymous donor!&lt;/p&gt;
+&lt;img height='286' src='/assets/img/2014-02-05/image03.png' width='624' /&gt;
+&lt;p&gt;We received many small donations from Harvard students by fundraising in the Annenberg dining hall, and by reaching out to individual students. Some of our members also asked for donations as holiday gifts from family, friends, and community members.&lt;/p&gt;
+
+&lt;p&gt;In the charts below, we&amp;#8217;ve &lt;em&gt;estimated&lt;/em&gt; the number of small, student donations.&lt;/p&gt;
+&lt;img height='128' src='/assets/img/2014-02-05/image02.png' width='442' /&gt;&lt;img height='288' src='/assets/img/2014-02-05/image01.png' width='575' /&gt;
+&lt;p&gt;Thank you once again to everyone who participated. We look forward to seeing you at our events this spring!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Apply for the Spring Philanthropy Fellowship!</title>
+   <link href="http://harvardea.org/news/2014/01/29/apply/"/>
+   <updated>2014-01-29T00:00:00-05:00</updated>
+   <id>http://harvardea.org/news/2014/01/29/apply</id>
+   <content type="html">&lt;p&gt;Harvard Effective Altruism is proud to announce the second semester of our Philanthropy Fellowship!&lt;/p&gt;
+
+&lt;p&gt;Effective altruism is the idea that we should apply evidence and reason to find the most effective ways to improve the world. HEA Philanthropy Fellows get to attend talks and private dinners about effective altruism with well-known academics, nonprofit leaders and philanthropists. Last semester&amp;#8217;s guests included Princeton philosopher Peter Singer and Skype co-founder Jaan Tallinn. This semester, we have another exciting set, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Joshua Greene, moral psychologist and philosopher and author of &lt;a href='http://www.amazon.com/Moral-Tribes-Emotion-Reason-Between/dp/1594202605/'&gt;Moral Tribes&lt;/a&gt;;&lt;/li&gt;
+
+&lt;li&gt;Eva Vivalt, founder of &lt;a href='http://www.aidgrade.org/'&gt;AidGrade&lt;/a&gt;;&lt;/li&gt;
+
+&lt;li&gt;Leah Libresco, policy researcher, rationalist and blogger;&lt;/li&gt;
+
+&lt;li&gt;and Jeff Kaufman and Julia Wise, local effective altruists who donate about 50% of their income to effective charities.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We&amp;#8217;ll also have discussions ourselves, host talks by members of HEA, and do some effective and altruistic projects of our own! At the end, we&amp;#8217;ll pick a cause that we think is important and raise funds for it ourselves.&lt;/p&gt;
+
+&lt;p&gt;The time commitment is usually one event per week&amp;#8211;dinner plus a talk when we&amp;#8217;re hosting a speaker, or dinner and discussion among ourselves. There are other optional talks and social events throughout the semester.&lt;/p&gt;
+
+&lt;p&gt;To apply, just fill out the short form below by &lt;strong&gt;February 9&lt;/strong&gt;. Thanks for applying! We hope you&amp;#8217;ll enjoy the chance to meet all our speakers and practice effective altruism yourself!&lt;/p&gt;
+&lt;iframe frameborder='0' height='1200' marginheight='0' marginwidth='0' src='https://docs.google.com/forms/d/11ee_JTDf2PPkmxWUDGSLL3XlfU2TrWbTiAnPrcoRHGM/viewform?embedded=true' width='560'&gt;Loading...&lt;/iframe&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Winter 2013 fundraiser</title>
+   <link href="http://harvardea.org/fundraisers/winter2013/"/>
+   <updated>2013-11-30T00:00:00-05:00</updated>
+   <id>http://harvardea.org/fundraisers/fundraiser-w2013</id>
+   <content type="html">&lt;p&gt;This holiday season, &lt;a href='http://harvardea.org/'&gt;Harvard Effective Altruism&lt;/a&gt; is fundraising for &lt;a href='http://www.givewell.org/'&gt;GiveWell&lt;/a&gt;&amp;#8217;s top-rated charities&amp;#8212;which we think represent our &lt;em&gt;best&lt;/em&gt; opportunity to do good in the world. Give back effectively this year&amp;#8212;give with us!&lt;/p&gt;
+
+&lt;p&gt;Our first $5000 of donations will be matched by an anonymous donor. And don&amp;#8217;t wait: our fundraiser will end on January 20th.&lt;/p&gt;
+
+&lt;h2 id='why_give_now'&gt;Why give now:&lt;/h2&gt;
+
+&lt;p&gt;It’s always a good time to give to effective charities&amp;#8212;you can make a surprisingly large impact on someone’s life! Our fundraiser is an especially good opportunity for three reasons:&lt;/p&gt;
+
+&lt;p&gt;First, an anonymous donor has agreed to match our first $5000 of donations&amp;#8212;so you can give twice as much.&lt;/p&gt;
+
+&lt;p&gt;Second, by spreading the word through our &lt;a href='https://www.facebook.com/events/392222467547974/'&gt;Facebook event&lt;/a&gt;, &lt;a href='https://rally.org/harvardea#feed'&gt;Rally page&lt;/a&gt;, and &lt;a href='http://www.youtube.com/watch?v=XRsPVYNIUyc&amp;amp;feature=youtu.be'&gt;Youtube video&lt;/a&gt;, you can convince others to donate!&lt;/p&gt;
+
+&lt;p&gt;Third, we’re competing with student groups at Princeton and Rutgers to see who can fundraise the most! I know I’m still sore about our one loss this football season…&lt;/p&gt;
+
+&lt;h2 id='our_charities'&gt;Our charities:&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href='http://www.givedirectly.org/'&gt;GiveDirectly&lt;/a&gt;&lt;/strong&gt; distributes cash to very poor individuals in Kenya and Uganda. Strong evidence indicates that cash transfers lead recipients to spend more on their basic needs (such as food) and may allow recipients to make investments with high returns, with no evidence of large increases in spending on items like alcohol or tobacco.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href='http://www3.imperial.ac.uk/schisto'&gt;Schistosomiasis Control Initiative&lt;/a&gt; (SCI)&lt;/strong&gt; supports programs that treat people for parasitic worm infections that cause short-term symptoms such as anemia, and may cause longer-term developmental problems. These worms are extremely inexpensive to treat.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href='http://www.dewormtheworld.org/'&gt;Deworm the World Initiative&lt;/a&gt;&lt;/strong&gt; also seeks to treat parasitic worm infections, but focuses more on advocacy and technical assistance to governments providing deworming and less on direct treatment.&lt;/p&gt;
+
+&lt;h2 id='comparative_advantages'&gt;Comparative advantages&lt;/h2&gt;
+
+&lt;p&gt;GiveDirectly has the most direct and robust case for impact. It also has potential to improve the aid community’s understanding of, and interest in, cash transfer programs.&lt;/p&gt;
+
+&lt;p&gt;SCI’s activities have the highest estimated cost-effectiveness; it is most likely that they have the largest impact on people’s lives.&lt;/p&gt;
+
+&lt;p&gt;DtWI has the highest potential for &lt;a href='http://blog.givewell.org/2011/12/16/leverage-in-charity/'&gt;leverage&lt;/a&gt; (doing extra good through indirect means), as it focuses on influencing governments spending rather than covering all costs with its own funds.&lt;/p&gt;
+
+&lt;p&gt;For more in-depth information, you can visit GiveWell&amp;#8217;s &lt;a href='http://www.givewell.org/charities/top-charities'&gt;top charities page&lt;/a&gt;, or read their in-depth reviews of &lt;a href='http://www.givewell.org/international/top-charities/give-directly'&gt;GiveDirectly&lt;/a&gt;, &lt;a href='http://www.givewell.org/international/top-charities/schistosomiasis-control-initiative'&gt;SCI&lt;/a&gt; and &lt;a href='http://www.givewell.org/international/top-charities/deworm-world-initiative'&gt;DtWI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id='how_to_donate'&gt;How to Donate:&lt;/h2&gt;
+
+&lt;h3 id='step_1'&gt;Step 1:&lt;/h3&gt;
+
+&lt;p&gt;Read about our charities and choose how much to give to each one. Which do you think is the most effective, and why?&lt;/p&gt;
+
+&lt;h3 id='step_2'&gt;Step 2:&lt;/h3&gt;
+
+&lt;p&gt;For donations under $20, you can give right now on our &lt;a href='https://rally.org/f/bHVNxGpEqLe'&gt;Rally page&lt;/a&gt;. Then email &lt;a href='mailto:harvardea@gmail.com'&gt;harvardea@gmail.com&lt;/a&gt; (from the account you submit with Rally) to tell us how to split your donation between our three charities.&lt;/p&gt;
+
+&lt;p&gt;For donations over $20, we ask that you donate directly through &lt;a href='http://www.givewell.org/charities/top-charities'&gt;GiveWell’s website&lt;/a&gt;. So that we can &lt;strong&gt;match&lt;/strong&gt; your donation: after entering your personal information, check “Dedicate my donation in honor of someone” and enter “Name: Harvard Effective Altruism”, “Email Address: harvardea@gmail.com”.&lt;/p&gt;
+
+&lt;h3 id='step_3'&gt;Step 3:&lt;/h3&gt;
+
+&lt;p&gt;Tell your friends! Help us spread the message of effective giving.&lt;/p&gt;
+
+&lt;p&gt;You can join and share our &lt;a href='https://www.facebook.com/events/392222467547974/'&gt;Facebook event&lt;/a&gt;, like our &lt;a href='https://rally.org/harvardea'&gt;Rally page&lt;/a&gt;, or watch and share our &lt;a href='http://www.youtube.com/watch?v=XRsPVYNIUyc&amp;amp;feature=youtu.be'&gt;Youtube video&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id='about_harvard_effective_altruism'&gt;About Harvard Effective Altruism&lt;/h2&gt;
+
+&lt;p&gt;We are a campus group dedicated to spreading the ideas of &lt;a href='http://en.wikipedia.org/wiki/Effective_altruism%20'&gt;effective altruism&lt;/a&gt;&amp;#8212;that we should apply evidence and reason to find the most effective ways to improve the world. Read more on our &lt;a href='http://harvardea.org/'&gt;home page&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Evaluating Effective Charities</title>
+   <link href="http://harvardea.org/event/2013/11/12/hassenfeld/"/>
+   <updated>2013-11-12T00:00:00-05:00</updated>
+   <id>http://harvardea.org/event/2013/11/12/hassenfeld</id>
+   <content type="html">&lt;p&gt;How can you maximize the impact of your charitable giving? What distinguishes the most effective causes and organizations? Elie Hassenfeld, co-founder and co-Executive Director of &lt;a href='http://givewell.org/'&gt;GiveWell&lt;/a&gt;, will describe how his organization is revolutionizing charity evaluation with completely transparent, rigorous analysis. Q&amp;amp;A to follow.&lt;/p&gt;
+
+&lt;p&gt;Elie Hassenfeld graduated from Columbia in 2004 and co-founded GiveWell in mid-2007 where he currently serves as co-Executive Director. GiveWell finds outstanding charity and publishes the full details of its analysis to help donors decide where to give. The Boston Globe has called GiveWell &amp;#8220;the gold standard for giving&amp;#8221; and its research has attracted attention from Peter Singer and other media. GiveWell has tracked over $10 million in donations to its recommendations as a direct result of its research.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Effective Altruism</title>
+   <link href="http://harvardea.org/event/2013/11/08/singer/"/>
+   <updated>2013-11-08T00:00:00-05:00</updated>
+   <id>http://harvardea.org/event/2013/11/08/singer</id>
+   <content type="html">&lt;p&gt;Effective altruism is a new movement consisting of many individuals and several independent organizations, all focused on the deceptively simple idea that we should try to do as much good as we can. The existence of this movement raises many interesting questions, both practical and philosophical, which this talk will discuss.&lt;/p&gt;
+
+&lt;p&gt;Peter Singer is the Ira W. DeCamp Professor of Bioethics at the Princeton University Center for Human Values, and Laureate Professor at the Center for Applied Philosophy and Public Ethics at the University of Melbourne. He is well known for his philosophical work, as well as for his books&amp;#8211;most recently including &lt;em&gt;The Life You Can Save&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Prof. Singer will also speak on &amp;#8220;Ethics and Animals: Where Are We Now?&amp;#8221; at 12 PM in Austin 200 (Ames Courtroom), 1515 Massachusetts Ave.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This event is co-sponsored by the &lt;a href='http://petrieflom.law.harvard.edu/'&gt;Petrie-Flom Center for Health Law Policy, Biotechnology, and Bioethics at Harvard Law School&lt;/a&gt;, with support from the Oswald DeN. Cammann Fund, as well as Harvard&amp;#8217;s Departments of &lt;a href='http://www.fas.harvard.edu/~phildept/'&gt;Philosophy&lt;/a&gt; and &lt;a href='http://economics.harvard.edu/'&gt;Economics&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>So You Want to be a Technology Developer...</title>
+   <link href="http://harvardea.org/event/2013/10/30/tallinn/"/>
+   <updated>2013-10-30T00:00:00-04:00</updated>
+   <id>http://harvardea.org/event/2013/10/30/tallinn</id>
+   <content type="html">&lt;p&gt;The roots of Skype go back to one email. If that email hadn&amp;#8217;t been sent, the world today might be different. In general, technology development is not something that &amp;#8220;just happens&amp;#8221; &amp;#8211; instead, it&amp;#8217;s a result of particular actions by individual people. Moreover, the responsibility of technology developers must increase proportionally to the power of their creations. The talk sketches out a vision of what it means to be a responsible technology developer, using behind the scenes stories and videos from the early days of Skype development.&lt;/p&gt;
+
+&lt;p&gt;Jaan Tallinn is one of the programmers behind the Kazaa file sharing platform, and a founding engineer of Skype. He is also a partner in the seed-stage venture firm Ambient Sound Investments, a co-founder of the Cambridge Centre for the Study of Existential Risk, and a former member of the Estonian President’s Academic Advisory Board. He describes himself as a futurist, hacker, investor and physicist, in that order. He holds a degree in physics from the University of Tartu.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Photography and Poverty</title>
+   <link href="http://harvardea.org/event/2013/10/22/middleton/"/>
+   <updated>2013-10-22T00:00:00-04:00</updated>
+   <id>http://harvardea.org/event/2013/10/22/middleton</id>
+   <content type="html">&lt;p&gt;Why do so many charity photos look identical? What do Apple&amp;#8217;s design principles, World War II propaganda, the infamous MySpace mirror portrait and mobile phone video scandals all have in common? At their root is the power that has created much of our Western visual understanding of poverty - as well as the power that will allow us to change it for the better. As major international organizations struggle with the question of how to keep poverty photography relevant - and keep the money rolling in - we can look at how the era of social networks and mobile technology will allow us to personally have a hand in crafting a new, subtle and infinitely &amp;#8216;smarter&amp;#8217; series of visuals around poverty - a critical tool in helping to spread the idea of effective charitable giving based on a more informed understanding of poverty.&lt;/p&gt;
+
+&lt;p&gt;Michael T. Middleton has done photography on six continents and his work has appeared in gallery shows in the US and France, where his Absent Friends portrait series was an Official Selection in the 2011 Prix de la Photographie in Paris. His talk, &amp;#8220;Poverty: Lessons Learned from Photography&amp;#8221; has been given at universities including Princeton, Rutgers, Oxford, Cambridge and Imperial College in London.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Which careers do the most good?</title>
+   <link href="http://harvardea.org/event/2013/10/17/macaskill/"/>
+   <updated>2013-10-17T00:00:00-04:00</updated>
+   <id>http://harvardea.org/event/2013/10/17/macaskill</id>
+   <content type="html">&lt;p&gt;You&amp;#8217;ll spend over 80,000 hours of your life working—you should make the most of them. But if you want to make a difference, what should you do? Work for nonprofits? Try to change policy? Find a malaria vaccine? Go into finance and give it all away?&lt;/p&gt;
+
+&lt;p&gt;80,000 Hours founder William MacAskill will tell you about his organisation&amp;#8217;s research into this question, and explain how it can help you find the career where you&amp;#8217;ll have the biggest impact. You might leave with some surprising conclusions&lt;/p&gt;
+
+&lt;p&gt;William MacAskill is the founder of Oxford&amp;#8217;s Centre for Effective Altruism and of &lt;a href='http://80000hours.org/'&gt;80,000 Hours&lt;/a&gt;, a personal advisory service on using your time to do the most good. Formerly a Fulbright scholar at Princeton University, and currently a PhD candidate at Oxford University, he has been featured on BBC News On-line, The Today Programme, NPR, CNBC and The Washington Post. Between them, his non-profits have raised over $3 million for the most cost-effective charities, with a further $130 million pledged.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Effective Charity or Mobilization for Institutional Reform?</title>
+   <link href="http://harvardea.org/event/2013/10/09/pogge/"/>
+   <updated>2013-10-09T00:00:00-04:00</updated>
+   <id>http://harvardea.org/event/2013/10/09/pogge</id>
+   <content type="html">&lt;p&gt;Professor Pogge will discuss whether some institutional reform efforts may be as effective or more effective than &amp;#8220;effective altruism&amp;#8221; and also whether effectiveness is the only standard by which such alternative ways of protecting people are to be compared.&lt;/p&gt;
+
+&lt;p&gt;Thomas Pogge is the Director of the Global Justice Program and Leitner Professor of Philosophy and International Affairs at Yale University. Additionally, he is the Research Director of the Centre for the Study of the Mind in Nature at the University of Oslo; a Professorial Research Fellow at the Centre for Applied Philosophy and Public Ethics at Charles Sturt University; and Professor of Political Philosophy at the University of Central Lancashire&amp;#8217;s Centre for Professional Ethics. He is also an editor for social and political philosophy for the Stanford Encyclopedia of Philosophy and a member of the Norwegian Academy of Science and Letters.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Global Poverty: Why Should We Care?</title>
+   <link href="http://harvardea.org/event/2013/09/12/temkin/"/>
+   <updated>2013-09-12T00:00:00-04:00</updated>
+   <id>http://harvardea.org/event/2013/09/12/temkin</id>
+   <content type="html">&lt;p&gt;Each year, millions of children die from readily preventable causes. This raises an obvious and poignant question. What, if anything, should our reaction be to the apparent fact that each one of us could easily prevent the deaths of many innocent people who are not responsible for their unfortunate plight?&lt;/p&gt;
+
+&lt;p&gt;Larry Temkin is a professor of philosophy at Rutgers. He holds a Ph.D. from Princeton and is the author of &amp;#8220;Rethinking the Good: Moral Ideals and the Nature of Practical Reasoning&amp;#8221; (OUP, 2012) and &amp;#8220;Inequality&amp;#8221; (OUP, 1993). He has received fellowships from the Danforth Foundation, the National Humanities Center, Harvard’s Safra Center for Ethics, All Souls College Oxford, the National Institutes of Health, the Australian National University, and Princeton, where he was the Laurance S. Rockefeller Visiting Professor for Distinguished Teaching. He has received eight major teaching awards, including Rice University’s George R. Brown Prize for Excellence in Teaching, the Nicholas Salgo Distinguished Teacher Award, the Phi Beta Kappa Outstanding Teaching Award, and Rutgers’s Award for Distinguished Contributions to Undergraduate Education.&lt;/p&gt;
+
+&lt;p&gt;The lecture will take place in Harvard&amp;#8217;s Science Center, Hall E (in the basement), and will be followed by a Q&amp;amp;A period.&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>

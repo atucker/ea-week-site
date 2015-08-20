@@ -1,0 +1,97 @@
+
+<!-- saved from url=(0061)https://b4g.baydin.com/site_media/bookmarklet/b4g-helper.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head>
+<body style="zoom: 1;">
+<script type="text/javascript" async="" src="ga.js"></script><script src="jquery.js" async=""></script>
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-8959903-5']);
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = 'https://ssl.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script>
+function track_event(arr) {
+	arr.unshift("_trackEvent");
+	_gaq.push(arr);
+}
+
+function post(type, contents) {
+	parent.postMessage(JSON.stringify({ type: type, contents: contents }), "https://mail.google.com");
+}
+
+function ajax(info) {
+	$.ajax(info.props)
+		.done(function(data) { post("ajax-response", { cid: info.cid, result: data }); })
+		.fail(function() { post("ajax-response", { cid: info.cid, error: true }); })
+	;
+}
+
+function read_storage(info) {
+	var value, error = false;
+
+	try { value = localStorage.getItem(info.key); }
+	catch(err) {
+		error = true;
+		track_event([ "dev", "localStorage error", "unexpected error -- " + err.name, err.message ]);
+	}
+
+	post("read-response", { cid: info.cid, error: error, val: value });
+}
+
+function write_storage(info) {
+	var error = false;
+
+	try { localStorage.setItem(info.key, info.val); }
+	catch (err) {
+		error = true;
+		if (err.name === "QUOTA_EXCEEDED_ERR") {
+			track_event([ "dev", "localStorage error", "over quota" ]);
+		} else {
+			track_event([ "dev", "localStorage error", "unexpected error -- " + err.name, err.message ]);
+		}
+	}
+	post("write-response", { cid: info.cid, error: error });
+}
+
+// Some times the request comes from mail.google.com or client5.google.com
+var rDomain = /https?:\/\/.*\.google\.com/;
+window.addEventListener("message", function(e) {
+	if(!rDomain.test(e.origin)) {
+		track_event([ "dev", "message posting -- bad origin", e.origin ]);
+		return;
+	}
+
+	var msg = null;
+	try { msg = JSON.parse(e.data); }
+	catch(err) { track_event([ "dev", "message posting -- json parse failed", err.message ]); }
+
+	if(!msg) { return; }
+
+	switch(msg.type) {
+		case "ping": post("pong"); break;
+		case "tracking": track_event(msg.contents); break;
+		case "ajax": ajax(msg.contents); break;
+		case "read-storage": read_storage(msg.contents); break;
+		case "write-storage": write_storage(msg.contents); break;
+		default: track_event([ "dev", "message posting -- unknow message type", msg.type ]);
+	}
+}, false);
+
+// Gmail has added a Content Security Policy that's preventing 3rd party iframes from loading
+// This code is here to migrate data to the mail.google.com domain
+Object.keys(localStorage).forEach(function(key) {
+	if("keyboard-shortcuts-enabled" === key) {
+		post("keyboard-migration", {
+			key: "b4g-keyboard-shortcuts-enabled", val: localStorage[key]
+		});
+	} else if(key.indexOf("b4g-inline-manage-data:") === 0) {
+		post("inline-manage-migration", { key: key, val: localStorage[key] });
+	}
+});
+</script>
+
+
+</body></html>
